@@ -1,0 +1,235 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-13T21:56:19.278Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9964884300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrackG18.stepDesfs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "login",
+        "description": "",
+        "id": "login;login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 799954400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrackG18.stepDesfs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16389872800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a \"driver\" log in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.vytrackG18.stepDesfs.LoginStepDef.as_a_log_in(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1205240300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user access \"Dashboard\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.vytrackG18.stepDesfs.LoginStepDef.user_access_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-13T21:56:47.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7012207500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrackG18.stepDesfs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "login",
+        "description": "",
+        "id": "login;login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 850369100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrackG18.stepDesfs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20671518200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a \"salesManager\" log in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salesManager\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.vytrackG18.stepDesfs.LoginStepDef.as_a_log_in(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4960024300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user access \"Dashboard\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.vytrackG18.stepDesfs.LoginStepDef.user_access_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-13T21:57:21.267Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5374933100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrackG18.stepDesfs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "login",
+        "description": "",
+        "id": "login;login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 854797300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrackG18.stepDesfs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5580041600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a \"storeManager\" log in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"storeManager\"",
+                  "offset": 5
+                }
+              ],
+              "location": "com.vytrackG18.stepDesfs.LoginStepDef.as_a_log_in(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3935097700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user access \"Dashboard\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.vytrackG18.stepDesfs.LoginStepDef.user_access_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
